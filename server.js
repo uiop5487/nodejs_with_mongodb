@@ -13,7 +13,7 @@ app.post("/users", (req, res) => {
 });
 
 app.get("/users", (req, res) => {
-  res.send("유저 정보 조회.");
+  res.send("유저 정보 조회");
 });
 
 app.listen(3000, () => {
